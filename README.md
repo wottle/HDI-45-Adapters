@@ -1,5 +1,8 @@
 # HDI-45 Adapters
 
+> [!CAUTION]
+> This repo is currently a work in progress. Please do not use these files to produce an adapter at this point. Once I have verified everything here is correct, This message will go away and I will send out noticed on the TinkerDifferent and 68kmla forums. 
+
 ## History
 If you want to learn more about why this adapter is needed and how it came to be, take a look at the [history](HISTORY.md).
 

@@ -1,2 +1,8 @@
 # HDI-45-Adapters
-These adapters are for Macintosh 6100/7100/8100 computers with HDI-45 ports to get VGA or DA-15 video output.
+
+## The History
+These adapters are for Macintosh 6100/7100/8100 computers with [HDI-45](https://en.wikipedia.org/wiki/HDI-45_connector) ports to get VGA or DA-15 video output. Apple, for a very brief period, created computers where the video out (and other signals) were combined into a single port, known affectionately as HDI-45.  I know, you may be saying, "they did this again with Apple Desktop Connector.  Also, technically Thunderbolt does this..."  And you would be correct.  However both of those connections lasted a long time and we have multiple options for monitors that support that connection.  With the HDI-45 port, Apple made exactly one monitor that used this connector.  The [Apple AudioVision 14 Display](https://en.wikipedia.org/wiki/Apple_AudioVision_14_Display): 
+
+![Picture of the ill-fated Apple AudioVision 14 monitor.  It used the HDI-45 connector to get the video signal, as well as audio in and out, and an ADB connection. This allowed owners to plug their keyboard and mouse, headphones, and a microphone into the monitor. The monitor also contained two large speakers in the chin of the device.](https://upload.wikimedia.org/wikipedia/commons/c/cf/Apple_AudioVision_14_Display.png)
+
+This monitor did not sell well, and they are much more rare than the Macintosh 6100, 7100, and 8100 machines that came with the native port.  Additionally, some machines, like the 6100 DOS Compatible version, required a DA-15 monitor connection to plug into the Y cable that allowed for switching between the Macintosh environment and the DOS environment. At the time, Apple provided an adapter with every 6100 (non-AV) sold.  Sadly, those adapters likely have become separated from the machines they came with, and the adapters are now relatively hard to find and are not cheap.  

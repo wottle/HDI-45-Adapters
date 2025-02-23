@@ -58,5 +58,10 @@ PCB Detailed steps:
 3. Insert the appropriate connector, and solder in place.  Also, I have the shielding connected to the ground pins, so I'd recomment adding solder to the shileding connectors for that reason and to add stability.
 4. For assembling the case, the tolerances are very tight.  The method I used was to take the bottom case part, lay the PCB down on it with the long header pins in the shroud.  I visually line up where the pins should be to get even spacing on the top and bottom.  Then I insert the shroud and PCB into the HDI-45 port to test the alignment.  You may need to shift the PCB a couple times to get this right.  Then, once the shroud and PCB are correctly inserted into the port, I add on the top case, then secure with one or two M3 x 8 screws.  Once tightened, pull the adapter out and test re-inserting to make sure there are no snags on insertion.  You may need to loosen the screws and adjust to get it right, but when done properly, there should be no resistance or snags when inserting.  
 
+Now, the adapter should be ready for use.  I've found that the adapter, when fitted with the case, is plenty secure to not need any additional attachment, but you could add double sided tape to the back if you felt it warranted.  It should also be noted that the PowerMac 7100 and 8100 machines have obstructions that make fully inserting the adapter impossible.  However, I tested this on the 8100 and it can be inserted enough that it still functions properly.  I believe the 7100 should work as well.  
 
+## Special Thanks
+
+I'd like to thank all the TinkerDifferent forum members who participated in [the discussion](https://tinkerdifferent.com/threads/need-solution-for-hdi-45-to-db-15-connectors-for-video-out.4056/) that lead to the creation of this adapter.  I couldn't have done it without their help. 
+ 
 

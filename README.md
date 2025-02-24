@@ -16,24 +16,34 @@ This adapter consists of a PCB, long 2.0mm pitch headers, either a straight fema
 ### PCB
 First, you'll need to order the PCB. I use JLCPCB because they are affordable and reliable. Download the Gerber file for the version you want from this repository. Get the ZIP file from either the [DA-15/gerber](DA-15/gerber) or [HD-15/gerber](HD-15/gerber) directory (do not decompress it). Then, go to [JLCPCB](https://jlcpcb.com), click "Add Gerber File," and upload the ZIP. The 2-layer PCB will load automatically. You can leave all settings as defaults (except for PCB color, which is optional). Place the order, and you should receive your five PCBs quickly and affordably.
 
-### Header Pins
+### Other Components
+
+| Component | Needed for HD-15 Version | Needed for DA-15 Version | Source |
+| --- | --- | --- | --- |
+| 2.0mm Pitch 19mm Length Header Pins | X | X | [eBay](https://www.ebay.com/itm/171495154253) |
+| 1N4007 Diode | X | | [Amazon](https://a.co/d/5SRJu1n) |
+| Amphenol L77HDEH15SOL2RM8 Female HD-15 Connector | X | | [Mouser](https://www.mouser.com/ProductDetail/Amphenol-Commercial-Products/LD15S24A4GX00LF?qs=tZOhSuJQg1m5NC9di5k5CQ%3D%3D) |
+| Amphenol LD15S24A4GX00LF Female DA-15 Connector | | X | [Amazon](https://a.co/d/5SRJu1n) |
+| M3 x 8 screws | 2 | 1 | [Amazon](https://www.amazon.com/dp/B0BMQGV4SW?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) |
+
+#### Header Pins
 I recommend using 19mm long 2.0mm pitch header pins. The horizontal spacing of the HDI-45 pins is 2.0mm, allowing you to insert some pins in bundles. However, the vertical spacing is smaller, so plastic spacers cannot remain in place for all five rows. I found that using strips of headers for rows 1, 3, and 5 (with 4, 3, and 4 pins, respectively) works best. Rows 2 and 4 only require two pins each, which should be inserted individually. I sourced my headers from [eBay](https://www.ebay.com/itm/171495154253).
 
-### Diode (HD-15 Version Only)
+#### Diode (HD-15 Version Only)
 A single diode is needed for the sense lines to set the HD-15 adapter to 21" MultiSync mode, enabling resolutions of 640x480 @ 67Hz or 832x624 @ 75Hz. I used 1N4007 diodes from [Amazon](https://a.co/d/5SRJu1n).
 
-### Connectors
+#### Connectors
 You'll need different connectors for each adapter type:
 - **HD-15 version:** [Amphenol L77HDEH15SOL2RM8](https://www.mouser.com/ProductDetail/Amphenol-Commercial-Products/L77HDEH15SOL2RM8?qs=mq7kV%2Fq8lk7g9czTkxkhWQ%3D%3D) (Mouser)
 - **DA-15 version:** [Amphenol LD15S24A4GX00LF](https://www.mouser.com/ProductDetail/Amphenol-Commercial-Products/LD15S24A4GX00LF?qs=tZOhSuJQg1m5NC9di5k5CQ%3D%3D) (Mouser)
 
 Any straight female HD-15 or DA-15 connector should work.
 
+### Screws
+If using a case, you'll need one or two M3 x 8 screws to secure the case halves together, depending on your version. The link above is for a set of m3 screws in different heads and lengths.  They're useful to have around, so buy yourself a set to keep handy. Or you can likely find a screw in your computer junk drawer that will work.  
+
 ### Case
 You can 3D print your own case or use a service like JLC3DP. Get the `.obj` files from the "case" directory for your chosen version. The files are optimized for flat-surface printing with minimal support. My slicer only added supports for the dome cutouts in the "bottom" case where the ground pegs sit. Your printer may not need them. Start printing early so the case is ready when your PCB assembly is complete. I strongly recommend using the case with this PCB.
-
-### Screws
-Finally, you'll need one or two M3 x 8 screws to secure the case halves together, depending on your version.
 
 ## Assembly
 Assembly is slightly challenging due to the long header pins. I recommend using an HDI-45 port to align the pins before soldering them into the PCB. I salvaged an HDI-45 connector from a non-functional PM6100 logic board for this purpose. However, you can also use the port while it's still on the logic board, though it will be more awkward.

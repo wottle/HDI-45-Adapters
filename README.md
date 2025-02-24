@@ -58,7 +58,7 @@ Assembly is slightly challenging due to the long header pins. I recommend using 
 
 #### Final Assembly
 1. First, solder the header pins. There are two approaches:
-    - **Advanced method:** Load four of the five rows simultaneously using cut header strips and individual pins. You can insert them all into the PCC and then insert the PCB with headers into the connector.  Or, my prefered method, you can load all the pins into the connector, and then lower the PCB onto the pins to get them in the PCB (wiggling it as you go to load all 4 roes). Then solder all four rows at once. I've found doing this with 4 rows is much easier than all 5. After solding those 4 rows, add and solder the final row.
+    - **Advanced method:** Load four of the five rows simultaneously using cut header strips and individual pins. You can insert them all into the PCC and then insert the PCB with headers into the connector.  Or, my prefered method, you can load all the pins into the connector, and then lower the PCB onto the pins to get them in the PCB (wiggling it as you go to load all 4 roes). Then solder all four rows at once. I've found doing this with 4 rows is much easier than all 5. After solding those 4 rows, add and solder the final row. For more details and pictures, see [pin assembly details](PIN_ASSEMBLY_DETAILS.md). 
     - **Simple method:** Solder one row at a time. Insert a 4-pin strip into the PCB, place it into the HDI-45 port, and solder. Repeat for the remaining rows.
 2. Insert and solder the diode (HD-15 version only) at the D1 location, ensuring correct orientation. If you prefer 14" MultiSync mode, use a wire instead of a diode.
 3. Insert and solder the appropriate connector, making sure to connect the shielding to ground for stability.

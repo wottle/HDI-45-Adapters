@@ -14,7 +14,7 @@ This adapter consists of a PCB, long 2.0mm pitch headers, either a straight fema
 ## Components Needed
 
 ### PCB
-First, you'll need to order the PCB. I use JLCPCB because they are affordable and reliable. Download the Gerber file for the version you want from this repository. Get the ZIP file from either the [DA-15/gerber](DA-15/gerber) or [HD-15/gerber](HD-15/gerber) directory (do not decompress it). Then, go to [JLCPCB](https://jlcpcb.com), click "Add Gerber File," and upload the ZIP. The 2-layer PCB will load automatically. You can leave all settings as defaults (except for PCB color, which is optional). Place the order, and you should receive your five PCBs quickly and affordably.
+First, you'll need to order the PCB. I use JLCPCB because they are affordable and reliable. Download the Gerber file for the version you want from this repository. Get the ZIP file from either the [DA-15/gerber](DA-15/gerber) or [HD-15/gerber](HD-15/gerber) directory (do not decompress it). Then, go to [JLCPCB](https://jlcpcb.com), click "Add Gerber File," and upload the ZIP. The 2-layer PCB will load automatically. You can leave all settings as defaults (feel free to change the PCB color if you'd like). Place the order, and you should receive your five PCBs quickly and affordably.
 
 ### Other Components
 

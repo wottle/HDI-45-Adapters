@@ -9,6 +9,13 @@ If you want to learn more about why this adapter is needed and how it came to be
 ## The Adapters
 There are two versions of this adapter, depending on your needs. If your PowerMac x100 machine has a DOS Compatible card or you prefer to use a period-correct CRT, you will need a DA-15 connection (also commonly referred to as a DB-15 connector). In that case, use the DA-15 version, located in the DA-15 directory.
 
+<p float="left">
+<img src="/images/hdi-45_adapters-top.jpeg" height="240" />
+<img src="/images/hdi-45_adapters-bottom.jpeg" height="240" />
+<img src="/images/hdi-45_adapters-standing.jpeg" height="313" />
+<img src="/images/hdi-45_adapters-installed_in_6100.jpeg" height="313" />
+</p>
+
 This adapter consists of a PCB, long 2.0mm pitch headers, either a straight female HD-15 or DA-15 connector, and a diode (for the VGA version). A 3D-printable case is included, which is crucial for pin alignment and adapter stability. While you could use this as a bare PCB, you would likely need to secure it to the back of the machine with double-sided tape. I highly recommend using the 3D-printed case, which can be inexpensively printed in resin at JLC3DP.
 
 ## Components Needed

@@ -4,7 +4,13 @@
 > This repo is a work in progress. I have ordered using the PCBs and the HD-15 version of the 3d printed case from JLCPCB, but I have added a new version of the DA-15 adpater 3D case that I have not yet received to verify it fits perfectly.  I have printed both on my local Ender 3D printer and they work very well.  But produce at your own risk and send me feedback if you have to adjust the 3D printer settings on your setup. 
 
 ## History
-If you want to learn more about why this adapter is needed and how it came to be, take a look at the [history](HISTORY.md).
+If you want to learn more about why this adapter is needed and how it came to be, take a look at the [history](HISTORY.md). But at a high level, this adapter allows you to replace this: 
+
+<img src="/images/hdi-45_adapter.webp" height="240" />
+
+And, in the case of the HDI-45 to HD-15 adapter, also replaces this additional adapter.
+
+<img src="/images/da-15_to_vga_adapter.jpg" height="240" />
 
 ## The Adapters
 There are two versions of this adapter, depending on your needs. If your PowerMac x100 machine has a DOS Compatible card or you prefer to use a period-correct CRT, you will need a DA-15 connection (also commonly referred to as a DB-15 connector). In that case, use the DA-15 version, located in the DA-15 directory.

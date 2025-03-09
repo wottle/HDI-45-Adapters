@@ -1,7 +1,7 @@
 # HDI-45 Adapters
 
 > [!CAUTION]
-> This repo is currently a work in progress. Please do not use these files to produce an adapter at this point. Once I have verified everything here is correct, This message will go away and I will send out noticed on the TinkerDifferent and 68kmla forums. 
+> This repo is a work in progress. I have ordered using the PCBs and the HD-15 version of the 3d printed case from JLCPCB, but I have added a new version of the DA-15 adpater 3D case that I have not yet received to verify it fits perfectly.  I have printed both on my local Ender 3D printer and they work very well.  But produce at your own risk and send me feedback if you have to adjust the 3D printer settings on your setup. 
 
 ## History
 If you want to learn more about why this adapter is needed and how it came to be, take a look at the [history](HISTORY.md).

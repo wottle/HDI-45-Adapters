@@ -36,7 +36,7 @@ First, you'll need to order the PCB. I use JLCPCB because they are affordable an
 | 2.0mm Pitch 19mm Length Header Pins | X | X | [eBay](https://www.ebay.com/itm/171495154253) |
 | 1N4007 Diode | X | | [Amazon](https://a.co/d/5SRJu1n) |
 | Amphenol L77HDEH15SOL2RM8 Female HD-15 Connector | X | | [Mouser](https://www.mouser.com/ProductDetail/Amphenol-Commercial-Products/LD15S24A4GX00LF?qs=tZOhSuJQg1m5NC9di5k5CQ%3D%3D) |
-| Amphenol LD15S24A4GX00LF Female DA-15 Connector | | X | [Amazon](https://a.co/d/5SRJu1n) |
+| Amphenol LD15S24A4GX00LF Female DA-15 Connector | | X | [Mouser](https://www.mouser.com/ProductDetail/Amphenol-Commercial-Products/LD15S24A4GX00LF?qs=tZOhSuJQg1m5NC9di5k5CQ%3D%3D) |
 | M3 x 8 screws | 2 | 1 | [Amazon](https://www.amazon.com/dp/B0BMQGV4SW?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) |
 
 #### Header Pins

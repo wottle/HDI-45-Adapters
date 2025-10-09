@@ -1,8 +1,5 @@
 # HDI-45 Adapters
 
-> [!CAUTION]
-> This repo is a work in progress. I have ordered using the PCBs and the two versions of the 3d printed cases from JLCPCB, and they work very well assembled. However, produce at your own risk and send me feedback if you have to adjust the 3D printer settings on your setup. 
-
 ## History
 If you want to learn more about why this adapter is needed and how it came to be, take a look at the [history](HISTORY.md). But at a high level, this adapter allows you to replace this: 
 
@@ -23,6 +20,11 @@ There are two versions of this adapter, depending on your needs. If your PowerMa
 </p>
 
 This adapter consists of a PCB, long 2.0mm pitch headers, either a straight female HD-15 or DA-15 connector, and a diode (for the VGA version). A 3D-printable case is included, which is crucial for pin alignment and adapter stability. While you could use this as a bare PCB, you would likely need to secure it to the back of the machine with double-sided tape. I highly recommend using the 3D-printed case, which can be inexpensively printed in resin at JLC3DP.
+
+## Pre-made Versions
+If you don't want to go down the adventure of building your own, I partnered with Joe's Computer Museum to sell pre-assembled units in 3d printed cases.  
+
+You can find the DA-15 version [here](https://jcm-1.com/product/hd-45-to-da-15-video-port-adapter/) and the HD-15 verion [here](https://jcm-1.com/product/hd-45-to-hd-15-video-port-adapter/). Making these is possible for probably about the proce you can get them from JCM, so you can really only save money if you need to make multiple.  
 
 ## Components Needed
 

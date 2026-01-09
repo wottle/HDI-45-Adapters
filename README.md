@@ -60,6 +60,9 @@ If using a case, you'll need one or two M3 x 8 screws to secure the case halves 
 ### Case
 You can 3D print your own case or use a service like JLC3DP. Get the `.obj` files from the "case" directory for your chosen version. The files are optimized for flat-surface printing with minimal support. My slicer only added supports for the dome cutouts in the "bottom" case where the ground pegs sit. Your printer may not need them. Start printing early so the case is ready when your PCB assembly is complete. I strongly recommend using the case with this PCB.
 
+### NEW: pin guide
+I've designed a pin guide that can be inserted in the shroud that goes around the long pins for the HDI-45 connector.  It should help stabilise the pins, making it more durable, and it also should help align the pins to ensure a good fit if your PCB is shifted slightly within the case.  However, since this part has tiny holes that are ~0.7mm diameter, I've only been successful in printing these on my home printer with a 0.2mm nozzle.  It is highly recommended you do the same. 
+
 ## Assembly
 Assembly is slightly challenging due to the long header pins. I recommend using an HDI-45 port to align the pins before soldering them into the PCB. I salvaged an HDI-45 connector from a non-functional PM6100 logic board for this purpose. However, you can also use the port while it's still on the logic board, though it will be more awkward.
 

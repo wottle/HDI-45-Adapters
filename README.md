@@ -63,6 +63,9 @@ You can 3D print your own case or use a service like JLC3DP. Get the `.obj` file
 ### NEW: pin guide
 I've designed a pin guide that can be inserted in the shroud that goes around the long pins for the HDI-45 connector.  It should help stabilise the pins, making it more durable, and it also should help align the pins to ensure a good fit if your PCB is shifted slightly within the case.  However, since this part has tiny holes that are ~0.7mm diameter, I've only been successful in printing these on my home printer with a 0.2mm nozzle.  It is highly recommended you do the same. 
 
+<img src="/images/hdi-45_pin_guide.png" height="240" />
+
+
 ## Assembly
 Assembly is slightly challenging due to the long header pins. I recommend using an HDI-45 port to align the pins before soldering them into the PCB. I salvaged an HDI-45 connector from a non-functional PM6100 logic board for this purpose. However, you can also use the port while it's still on the logic board, though it will be more awkward.
 
@@ -84,6 +87,7 @@ Assembly is slightly challenging due to the long header pins. I recommend using 
     - Place the PCB into the bottom case, aligning the pins evenly. Insert it into the HDI-45 port to confirm alignment.
     - Attach the top case and secure it with M3 x 8 screws.
     - Test the fit by reinserting the adapter into the HDI-45 port. Adjust as needed to prevent snags.
+5. (Optional), print the HDI-45 pin guide plate found in /common with a 0.2mm nozzle.  Install pin guide plate into HDI-45 connector shroud, aligning pins with holes.  Once aligned, use a pair of tweezers to push pin plate down, keeping it paralell to the PCB.   
 
 Your adapter is now ready to use. When fitted with the case, it is secure enough without additional attachment, though you can add double-sided tape if needed. Note that PowerMac 7100 and 8100 models have obstructions that prevent full insertion of the adapter, but testing on an 8100 confirmed it still functions correctly. The 7100 should work as well.
 

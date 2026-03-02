@@ -1,3 +1,14 @@
+# NEW METHOD:
+
+After realizing that the HDI-45 port I had removed from a damaged board was stating to get worn out and loosening when trying to use it as a guide for assembling the long pins into the PCB, I thought I could use the new pin spacer to help assemble.  So, I modified the pin spacer a bit so that is securely holds the long pins, leaving just enough of the pins sticking out to go into the PCB to the correct length.  With the new jig, shown below, I can know load all 5 rows of pins at once, even on some of the JLCPCB boards with pin holes that are a bit to snug.  This drastically speeds up and eases the assembly of the long pins, which was the only challenging part of the assembly.  
+
+![Picture of the new jig for assembling the pins in the board.](/images/hdi-45_jig_loaded.jpg)
+
+It is highly recommended to 3d print the jig if you plan to assemble your own.  You can find the jig under the common directory named HDI-45_Jig.obj
+
+
+# OLD METHOD:
+
 Assembling the header pins will likely be the only challenging part of this process.  This page gives some pictures to show my technique for getting the pins soldered in and aligned properly. 
 
 As stated in the advanced instructions, I use a HDI-45 port as an alignment jig. 

@@ -65,6 +65,11 @@ I've designed a pin guide that can be inserted in the shroud that goes around th
 
 <img src="/images/hdi-45_pin_guide.png" height="240" />
 
+### NEW: pin assembly jig
+IUsing the pin guide above as a starting point, I created a jig that allows you to insert all 5 rows of pins for inserting into the PCB for assembly before soldering.  I load the pins, then insert the jig with pins sticking out into the PCB.  The jig should allow for the perfect amount of insertion into the PCB with the header spacers still installed on the alternating rows.  
+
+<img src="/images/HDI-45_Jig.png" height="240" />
+
 
 ## Assembly
 Assembly is slightly challenging due to the long header pins. I recommend using an HDI-45 port to align the pins before soldering them into the PCB. I salvaged an HDI-45 connector from a non-functional PM6100 logic board for this purpose. However, you can also use the port while it's still on the logic board, though it will be more awkward.
